@@ -1,0 +1,915 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+.desktop-menu2 {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    display: none;
+}
+.top-header {
+	background-color: black;
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid gray;
+}
+.top-header-content1 {
+	line-height: 36px;
+	padding-left: 60px;
+	font-size: 16px;
+	color: gray;
+}
+.top-header-content2 {
+	line-height: 36px;
+	margin-left: -50px;
+	font-size: 16px;
+	color: gray;
+}
+.top-header-content1 i {
+	margin-right: 5px;
+	line-height: 36px;
+	font-size: 16px;
+	color: rgb(205, 182, 84);
+}
+.top-header-content2 i {
+	margin-right: 5px;
+	line-height: 36px;
+	font-size: 16px;
+	color: rgb(205, 182, 84);
+}
+.top-header-fontawesome {
+	margin-left: 45%;
+}
+.top-header-fontawesome a > i {
+	margin-left: 5px;
+	line-height: 36px;
+	font-size: 16px;
+	color: rgb(205, 182, 84);
+}
+.nav {
+	justify-content: center;
+	background-color: black;
+}
+.nav > a {
+	display: inline-block;
+	padding-top: 5px;
+	vertical-align: top;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.nav a > img {
+	width: 120px;
+	margin-left: 20px;
+}
+.menu {
+	position: relative;
+    margin-left: 250px;
+    margin-right: -50px;
+	height: 80px;
+}
+.menu > li {
+	text-align: center;
+	margin-left: 15px;
+	display: inline-block;
+  	vertical-align: top;
+	list-style-type: none;
+}
+.menu > li > a {
+	padding-top: 5px;
+	margin: 0;
+	color: gray;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 80px;
+	line-height: 80px;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+}
+.menu > li:hover > a {
+	color: rgb(205, 182, 84);
+	text-decoration: none;
+}
+.menu .active > a {
+	color: rgb(205, 182, 84);
+	text-decoration: none;
+}
+.list > a:after {
+	content: "\f107";
+	padding-left: 5px;
+	font-family: "FontAwesome";
+}
+.sub-menu {
+	display: none;
+	box-shadow: 0 0 5px 1px #ddd;
+	position: absolute;
+	z-index: 1;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: white;
+}
+.sub-menu li {
+	margin-left: -40px;
+	margin-right: 0px;
+	list-style-type: none;
+	text-align: left !important;
+}
+.sub-menu a {
+	color: gray ;
+	display: block ;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 50px ;
+	line-height: 50px;
+	text-align: left ;
+}
+.nav li:hover ul {
+	display: block;
+}
+.sub-menu li:hover > a {
+	width: 100%;
+	color: rgb(205, 182, 84);
+	text-decoration: none;
+	background-color: black;
+}
+.mobile-group {
+    display: none;
+}
+.mobile-menu-group {
+    display: none;
+}
+#search-form {
+	margin-top: 30px;
+}
+#search-form form button {
+	color: gray;
+	background-color: black;
+	border: none;
+}
+#search-form form button:hover {
+    color: white;
+}
+.slider img {
+	width: 100%;
+	height: 700px;
+}
+.slider > .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.carousel-caption {
+	top: 220px; 
+}
+.carousel-caption h1 {
+	font-size: 60px;
+	font-family: 'Merriweather', serif;
+	width: 760px;
+	margin-left: auto;
+    margin-right: auto;
+	color: rgb(197, 161, 59);
+	background-color: rgba(255, 255, 255, 0.4);
+}
+.carousel-caption p {
+    margin-top: 20px;
+	font-size: 20px;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.introduction {
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.introduction-content {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: 10px;
+}
+.introduction-content h3 {
+    color: gray;
+    font-family: 'Merriweather', serif;
+}
+ .introduction-content > button {
+    width: 140px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(205, 182, 84) ;
+    background-color: white;
+    border: 3px solid rgb(205, 182, 84);
+ }
+ .introduction-content > button:hover {
+    background-color: rgb(205, 182, 84);
+    color: black;
+ }
+.introduction-content h1 {
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+.introduction-content p {
+    color: gray;
+}
+.introduction-image img {
+	width: 100%;
+	max-width: 550px;
+}
+.service-1 {
+    padding-top: 15px;
+    padding-bottom: 70px;
+    background-color: rgb(28, 28, 28);
+}
+.service-1 h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    color: rgb(205, 182, 84) ;
+    text-transform: uppercase;
+}
+.service-1 p {
+    font-size: 16px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    padding-bottom: 30px;
+    font-family: 'Merriweather', serif;
+}
+.service-1-item-image img {
+    width: 100%;
+}
+.service-1-item-content {
+    text-align: center;
+    background-color: white;
+    height: 200px;
+}
+.service-1-item-content > h3 {
+    padding-top: 15px;
+    font-size: 24px;
+    padding-bottom: 15px;
+    color: rgb(34, 36, 42);
+}
+.service-1-item-content > p {
+    color: gray !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-family: none !important;
+    padding-bottom: 20px !important;
+}
+.service-1-item-button button:first-of-type {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-right: 1px solid white !important;
+}
+.service-1-item-button button:last-of-type {
+    width: 50%;
+    float: right;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-left: 1px solid white !important;
+}
+.service-1-item-button button:hover {
+    background-color: rgb(100, 100, 100);
+}
+.service-2 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.service-2-item {
+    margin-bottom: 30px;
+}
+.service-2-fontawesome i {
+    font-size: 50px;
+    color: rgb(205, 182, 84) ;
+}
+.service-2-item-content {
+    margin-left: 20px;
+    padding-right: 10px;
+}
+.service-2-item-content h3 {
+    font-size: 24px;
+}
+.service-2-item-content p {
+    font-size: 16px;
+    color: gray;
+}
+.room-service {
+    padding-top: 15px;
+    padding-bottom: 70px;
+    background-color: rgb(28, 28, 28);
+}
+.room-service-item img {
+    width: 100%;
+    height: 220px;
+}
+.room-service h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    color: rgb(205, 182, 84) ;
+    text-transform: uppercase;
+}
+.room-service p {
+    font-size: 16px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    padding-bottom: 30px;
+    font-family: 'Merriweather', serif;
+}
+.room-service-item-content {
+    background-color: white;
+}
+.room-service-item-content h3 {
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 24px;
+    padding-bottom: 15px;
+    color: rgb(34, 36, 42);
+}
+.room-service-item-content p > i {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+    color: rgb(197, 161, 59);
+}
+.room-service-item-content p {
+    color: gray;
+    font-size: 16px !important;
+    margin-left: 10px !important;
+    padding-bottom: 0px !important;
+    text-align: left !important;
+}
+.room-service-item-content > button {
+    border: none;
+    background-color: rgb(205, 182, 84);
+    padding: 5px 10px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    color: white;
+    font-weight: bold;
+}
+.room-service-item-content > button:hover {
+    background-color: rgb(164, 146, 67);
+}
+.news {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: rgb(245, 245, 245);
+}
+.news h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    color: rgb(205, 182, 84) ;
+    text-transform: uppercase;
+}
+.news-item {
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: 1px solid gray;
+    box-shadow: 0px 5px 8px -1px rgba(72,84,85,0.4);
+}
+.news-item img {
+    width: 100%;
+    height: 230px;
+}
+.short-line {
+    width: 10%;
+    display: block;
+    border-top: 3px solid rgb(200,200,200);
+}
+.news-item-advertise img {
+    width: 100%;
+    height: 200px;
+}
+.news-item-content {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.news-item-content h3 {
+    padding-top: 10px;
+    font-size: 20px;
+}
+.news-item-content h3 > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(34, 36, 42);
+}
+.news-item-content p {
+    font-size: 16px !important;
+    color: gray;
+    margin-bottom: 10px !important;
+}
+.news-item-content button {
+    padding: 3px 15px;
+    color: rgb(205, 182, 84);
+    background-color: white;
+    border: 2px solid rgb(205, 182, 84);
+}
+.news-item-content button:hover {
+    background-color: rgb(205, 182, 84);
+    color: white;
+}
+.news-item-advertise {
+    cursor: pointer;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.news-item-advertise-content {
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    top: 140px;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.news-item-advertise-content p {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.news-item-advertise-content p > a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.booking {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/booking-background.jpg);
+}
+.booking h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+    color: rgb(205, 182, 84)
+}
+.booking-form {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 800px;
+    padding: 40px 40px 40px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-left label {
+    color: white;
+    font-size: 16px;
+}
+.form-left input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form-right label {
+    color: white;
+    width: 100%;
+    font-size: 16px;
+}
+.form-right select {
+    height: 30px;
+}
+.form-right input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.booking-form button {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 240px;
+    font-weight: bold;
+    width: 240px;
+    padding: 5px 20px;
+    color: white;
+    background-color: rgb(205, 182, 84);
+}
+.booking-form button:hover {
+    color: black;
+    background-color: rgb(164, 146, 67);
+}
+.footer {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+.footer-item1 img {
+    cursor: pointer;
+    width: 150px;
+}
+.footer-item1 p {
+    margin-top: 20px;
+    color: gray;
+    font-size: 16px;
+}
+.footer-fontawesome a > i {
+    margin-left: 10px;
+    font-size: 20px !important;
+    color: rgb(205, 182, 84) !important;
+}
+.footer-item2 h4 {
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    color: rgb(205, 182, 84);
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-item2 p {
+    font-size: 16px;
+    color: gray;
+}
+.footer-item2 p > i {
+    margin-right: 5px;
+    font-size: 20px !important;
+    color: rgb(205, 182, 84) !important;
+}
+.footer-item2 img {
+    width: 200px;
+    margin-left: 15px;
+}
+.footer-item3 h4 {
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    color: rgb(205, 182, 84);
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-item3 p {
+    font-size: 16px;
+    color: gray;
+}
+#emailform button {
+    background-color: black;
+    color: gray;
+    border: none;
+}
+#emailform button:hover {
+    color: rgb(205, 182, 84);
+}
+.crossline {
+    display: block;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+.copyright {
+    line-height: 40px;
+    margin-bottom: 0;
+    background-color: black;
+    text-align: center;
+    color: gray;
+}
+.go-top {
+	display: none;
+    cursor: pointer;
+	line-height: 50px;
+	background-color: black;
+	text-align: center;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	border: 2px solid gray;
+}
+.go-top i {
+	padding: 5px;
+	font-weight: bold;
+	font-size: 24px;
+	color: gray;
+}
+.go-top:hover {
+    background-color: rgb(197, 161, 59);
+    box-shadow: 0 10px 40px 0 rgba(255,255,255,0.6);
+}
+
+@media only screen and (max-width: 780px) { 
+    .desktop-menu {
+        display: none;
+    }
+    .header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: black;
+    }
+    .mobile-group {
+        display: block;
+        width: 300px;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mobile-menu-icon {
+        padding: 5px;
+        width: 50px;
+        background-color: black;
+        border: 2px solid  rgb(205, 182, 84);
+    }
+    .mobile-menu-icon:hover {
+        background-color: rgb(200, 200, 200)
+    }
+    .mobile-menu-icon i {
+        color: rgb(205, 182, 84);
+        font-size: 24px;
+    }
+    .mobile-menu-title {
+        margin-left: 10px;
+        color: rgb(205, 182, 84);
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .mobile-menu-group {
+        display: block;
+        height: 100%;
+        padding-top: 60px;
+        width: 0;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    .mobile-menu-group .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        text-decoration: none;
+        color: gray;
+    }
+    .mobile-menu-group .closebtn:hover {
+        color: rgb(205, 182, 84);
+    }
+    .mobile-content {
+        list-style: none;
+    }
+    .mobile-content li {
+        padding: 10px 0 10px 0;
+    }
+    .mobile-content li a{
+        font-size: 16px;
+        font-weight: bolder;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    .mobile-content > li:hover{
+        transition: 0.8s;
+    }
+    .mobile-content li a:hover{
+        color: rgb(205, 182, 84);
+    }
+    .submenu-mobile {
+        display: none;
+        list-style: none;
+        padding-left: 30px;
+    }
+    .mobile-content > li:hover .submenu-mobile {
+        display: block;
+    }
+    .desktop-menu2 {
+        width: 100px;
+        position: absolute;
+        z-index: 0;
+    }
+    .slider img {
+        width: 100%;
+        height: 450px;
+    }
+    .carousel-caption {
+        top: 150px; 
+        z-index: 1 !important;
+    }
+    .carousel-caption > h1 {
+        width: 100%;
+        font-size: 40px;
+        font-family: 'Merriweather', serif;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(197, 161, 59);
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+    .carousel-caption p {
+        display: none;
+    }
+    .introduction-content {
+        padding-top: 0;
+    }
+    .introduction-content h3 {
+        color: gray;
+        font-size: 20px;
+        font-family: 'Merriweather', serif;
+    }
+    .introduction-content h1 {
+        color: black;
+        font-size: 30px;
+        font-family: 'Merriweather', serif;
+    }
+    .service-1-item {
+        padding-bottom: 60px;
+    }
+    .service-1 h1 {
+        font-size: 24px;
+    }
+    .service-1-item-content {
+        text-align: center;
+        background-color: white;
+        height: 180px;
+    }
+    .service-1-item-content > h3 {
+        padding-top: 15px;
+        font-size: 24px;
+        padding-bottom: 10px;
+        color: rgb(34, 36, 42);
+    }
+    .service-2 {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .service-2-fontawesome {
+        width: 50px;
+        margin-bottom: 10px !important;
+    }
+    .service-2-item-content h3 {
+        font-size: 20px;
+    }
+    .room-service h1 {
+        font-size: 24px;     
+    }
+    .room-service-item-content h3 {
+        padding-left: 20px;
+        padding-top: 15px;
+        font-size: 20px !important;
+        padding-bottom: 10px;
+        color: rgb(34, 36, 42);
+    }
+    .room-service-item {
+        padding-bottom: 20px;
+    }
+    .news {
+        padding-top: 30px;
+        padding-bottom: 0px; 
+        background-color: rgb(245, 245, 245);
+    }
+    .news h1 {
+        font-weight: bold;
+        text-align: center;
+        padding-top: 0;
+        font-size: 24px;
+        padding-bottom: 10px;
+        font-family: 'Merriweather', serif;
+        color: rgb(205, 182, 84);
+        text-transform: uppercase;
+    }
+    .booking {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./images/booking-background.jpg);
+    }
+    .booking h2 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: rgb(205, 182, 84);
+    }
+    .booking-form {
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 320px;
+        padding: 20px 20px 20px 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-left label {
+        text-align: center;
+        display: block;
+        color: white;
+        font-size: 16px;
+    }
+    .form-left input {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .form-right label {
+        text-align: center;
+        display: block;
+        color: white;
+        font-size: 16px;
+    }
+    .form-right select {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        height: 30px;
+    }
+    .form-right input {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .booking-form button {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-weight: bold;
+        width: 260px;
+        padding: 5px 20px;
+        color: white;
+        background-color: rgb(205, 182, 84);
+    }
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: black;
+    }
+    .footer-item1 {
+        text-align: center;
+    }
+    .footer-item1 img {
+        width: 150px;
+    }
+    .footer-item1 p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-item2 h4 {
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+    .footer-item2 p {
+        color: gray;
+        margin-left: 10px;
+    }
+    .footer-item2 img {
+        width: 200px;
+        margin-left: 75px;
+    }
+    .footer-item3 h4 {
+        padding-bottom: 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+    .footer-item3 p {
+        margin-left: 10px;
+    }
+    #emailform input {
+        width: 90%;
+    }
+    .go-top { 
+        line-height: 20px;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+    }
+    .go-top i {
+        padding: 3px !important;
+        font-size: 20px;
+        color: gray;
+    }
+}
